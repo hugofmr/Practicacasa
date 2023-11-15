@@ -84,7 +84,7 @@ Total:                                                 {precio_total}€
 ''')
 
 
-
+'''
 #Bucles While 
 
 lista = [1,2,3,4,5,6,7,8]
@@ -93,3 +93,5 @@ lista = [1,2,3,4,5,6,7,8]
 while (len(lista) > 3):
     lista.pop()
     print(lista)
+
+'''
