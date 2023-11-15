@@ -69,8 +69,14 @@ print(f'- Alumno1: { lista_master[0]} ')
 
 # 1. Obtener el nombre del alumno 1 desde la lista.
 
+nombre = lista_master[0]["nombre"]
+
+print(f'El nombre del alumno 1 es: { nombre }')
+
 print(f'El nombre del alumno 1 es: { alumno1["nombre"] }')
 
 # 2. Obtener la nota del segundo examen del segundo curso del alumno2 en la lista.
 
+alumno = lista_master[1]
+#nota = 
 print(f'La nota del examen Loop del alumno2 es: { alumno2["cursos"][1]["examenes"][1]["nota"] }')
