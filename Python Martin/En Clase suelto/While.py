@@ -45,9 +45,7 @@ X. Salir del programa
         print('''
         ******************** Ticket de Compra ************************''')
         print(f"{'PRODUCTO':<15}| {'PRECIO':<10}| {'CANTIDAD':<10}| {'% Dcto':<10}| {'DESCUENTO':<10}| {'TOTAL':<10}")
-        print(f"{productos['nombre']:<14} | {productos['precio']:<10} | {productos['cantidad']:<10} | {productos['% Dcto']:<10} | {productos['descuento']:<10} | {productos['total']:<10}")
-
-
+        
         for producto in productos:
             print(f"{producto['nombre']:<14} | {producto['precio']:<10} | {producto['cantidad']:<10} | {producto['% Dcto']:<10} | {producto['descuento']:<10} | {producto['total']:<10}")
            
