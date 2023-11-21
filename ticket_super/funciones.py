@@ -1,5 +1,3 @@
-
-
 productos= []
 total_general = 0
 opcion_escogida = ''
@@ -37,8 +35,7 @@ def ingreso_producto():
     }
 
     productos.append(producto)
-
-
+    
 while(opcion_escogida != 'X'):
     opcion_escogida= input('''
 Hola, escoge una opcion
@@ -77,7 +74,10 @@ X. Salir del programa
         break
 
     else:
-        print('Opcion no valida, por favor introduce: 1, 2 o X')
+        print('Opcion no valida, por favor introduce: 1, 2 o X')    
+
+
+
 
 
 
